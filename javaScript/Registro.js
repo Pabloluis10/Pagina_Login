@@ -6,6 +6,10 @@ const edad = document.getElementById("edad")
 const listado = document.getElementById("listado");
 
 function registrar() {
-	listado.innerHTML = listado.innerHTML + "<li>"+nombre.value+"</li>"
-    alert("hola "+ nombre.value);
-        }
+     swal({
+        title: 'Datos del cliente Ingresado',
+        text: 'Ha ingresado al cliente '+nombre.value+' '+apellido.value+' con '+edad.value+' años',
+        icon: 'success',
+    }) 
+	listado.innerHTML = listado.innerHTML + "<li>"+nombre.value+" "+apellido.value+" "+edad.value+"</li>"
+}
