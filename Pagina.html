@@ -2,25 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="css/estiloLogin.css">
     <title>Práctica 1</title>
 </head>
 <body>
     <div class="login">
         <img class="logo" src="imagenes/logo.png" alt="Logo inicio de sesion">
         <h1>Login Usuario</h1>
-        <form>
+        <form id="formulario">
             <!-- Usuario -->
             <label for="username">Nombre de Usuario</label>
-            <input type="text" placeholder="Ingrese Usuario">
+            <input type="text" id="username" placeholder="Ingrese Usuario">
             
             <!-- Contraseña-->
             <label for="pasword" >Pasword</label>
-            <input type="password" placeholder="Ingrese Contraseña">
-            <input type="submit" value="Iniciar"> 
+            <input type="password" id="contraseña" placeholder="Ingrese Contraseña">
+            <input type="button" onclick="mostrarDatos()" value="Iniciar"> 
             <a href="#">Olvide mi contraseña</a>
-            <a href="#"></a>
         </form>
     </div>
+    <script type="text/javascript" src="javaScript/Login.js"></script>
 </body>
 </html>
