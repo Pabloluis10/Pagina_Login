@@ -1,12 +1,40 @@
 #idname{
-    background: rgb(120, 218, 10);
-    color: rgb(8, 0, 0);
+    background: rgb(18, 233, 169);
+    color: rgb(54, 8, 71);
 }
+
 header{
-    background: rgb(18, 233, 36);
+    background: rgb(18, 233, 169);
     color: white;
 }
+
+.fondo h2 {
+margin: 10;
+padding: 100px, 0, 0;
+text-align: center;
+}
+
 .fondo{
-    background: black;
+    width: 500px;
+    height: 500 px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    padding-top: 50px;
     color: white;
+}
+
+label{
+    background-color: black;
+    color: rgb(4, 247, 194);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: url(../imagenes/fondo.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
 }
