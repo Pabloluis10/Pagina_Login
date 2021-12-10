@@ -1,6 +1,7 @@
 #idname{
     background: rgb(18, 233, 169);
     color: rgb(54, 8, 71);
+    text-align: center;
 }
 
 header{
@@ -18,15 +19,27 @@ text-align: center;
     width: 500px;
     height: 500 px;
     margin: auto;
-    top: 50%;
+    top: 25%;
     left: 50%;
-    padding-top: 50px;
+    padding-top: 5px;
     color: white;
 }
 
 label{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    display: block ;
     background-color: black;
     color: rgb(4, 247, 194);
+}
+
+input {
+    position: relative;
+    left: 25%;
+    width: 50%;
+    margin-bottom: 20px;
 }
 
 body {
